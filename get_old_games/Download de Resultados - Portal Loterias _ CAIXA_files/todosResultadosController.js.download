@@ -1,0 +1,28 @@
+﻿loterias.controller('todosResultadosController', function ($scope, $http, $localStorage, $q, $timeout, ParamsService) {
+    $("#loading").show();
+
+    $scope.obterTodosResultados = function () {
+        if ($localStorage.tituloModalidade !== undefined) {
+
+            ParamsService.obterParametro().then(function (parametros) {
+                let url = parametros.urlApi + "/api/resultados";
+                $scope.tituloModalidade = $localStorage.tituloModalidade;
+                delete $localStorage.tituloModalidade;
+
+                $http.get(url, { params: { modalidade: $scope.tituloModalidade } }).then(function (response) {
+                    $scope.html = response.data.html;
+                    $("#loading").hide();
+                }).catch(function (err) {
+                    console.error('Erro ao realizar a busca dos resultados...');
+                    $("#loading").hide();
+                    return $q.reject(err);
+                });
+            }).catch(function (err) {
+                $("#loading").hide();
+                return $q.reject(err);
+            });
+        }
+    }
+
+    $timeout(function () { $scope.obterTodosResultados(); }, 500);    
+});

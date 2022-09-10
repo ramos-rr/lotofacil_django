@@ -1,0 +1,51 @@
+﻿loterias.controller('menuController', function ($scope, $http, ParamsService) {
+    $scope.atacharEventosMenu = function () {
+        $('.has-submenu > a').click(function (e) {
+            e.preventDefault();
+
+            var s = $(this).parent().find('.submenu');
+
+            $('.submenu.active').not(s).removeClass('active');
+            s.toggleClass('active');
+
+            $('.has-submenu.active').not(s.parent()).removeClass('active');
+            $(this).parent().toggleClass('active');
+        });
+
+        $('.mobile-menu').click(function (e) {
+            e.preventDefault();
+
+            $(this).toggleClass('open-menu');
+            $('.main-menu').toggleClass('active');
+
+            if ($(this).hasClass('open-menu')) {
+                $('.mobile-account').removeClass('open-account');
+                $('.mobile-account-access').removeClass('active');
+            }
+        });
+    }
+
+    $scope.obterItensMenu = function (urlApi) {
+        $http.get(urlApi + "/api/menu").then(function (response) {
+            $scope.linksMenuPrincipal = response.data.linksMenuPrincipal;
+            $scope.linksSuperioresDireita = response.data.linksSuperioresDireita;
+            $scope.linksSuperioresEsquerda = response.data.linksSuperioresEsquerda;
+        });
+    }
+
+    $scope.redirecionarPesquisa = function ($event) {
+        if ($scope.termoPesquisa !== undefined && $scope.termoPesquisa.length) {
+            window.location.href = "https://www.caixa.gov.br/site/Paginas/Pesquisa.aspx?k=" + $scope.termoPesquisa;
+        }
+
+        $event.preventDefault();
+    }
+
+    $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
+        $scope.atacharEventosMenu();
+    });
+
+    ParamsService.obterParametro().then(function (parametros) {
+        $scope.obterItensMenu(parametros.urlApi);
+    });
+});
