@@ -1,0 +1,15 @@
+﻿loterias.controller('rodapeController', function ($scope, $http, ParamsService) {
+    $scope.obterItensRodape = function (urlApi) {
+        $http.get(urlApi + "/api/rodape").then(function (response) {
+            $scope.telefones = response.data.telefones;
+            $scope.linksSuperioresColuna1 = response.data.linksSuperioresColuna1;
+            $scope.linksSuperioresColuna2 = response.data.linksSuperioresColuna2;
+            $scope.redesSociais = response.data.redesSociais;
+            $scope.linksInferiores = response.data.linksInferiores;
+        });
+    }
+
+    ParamsService.obterParametro().then(function (parametros) {
+        $scope.obterItensRodape(parametros.urlApi);
+    });
+});

@@ -1,0 +1,73 @@
+﻿var loterias = angular.module("loterias", ["ngSanitize", "ngStorage", "ngMask"]);
+
+
+loterias.directive('onFinishRender', function ($timeout) {
+    return {
+        restrict: 'A',
+        link: function (scope, element, attr) {
+            if (scope.$last === true) {
+                $timeout(function () {
+                    scope.$emit('ngRepeatFinished');
+                });
+            }
+        }
+    }
+});
+
+loterias.service('ParamsService', function ($http, $q) {
+    var parametroUrlApi = undefined;
+
+    this.obterParametro = function () {
+        if (!parametroUrlApi) {
+            var deferred = $q.defer();
+
+            $http.get("/Style Library/json/params.txt").then(function (result) {
+                parametroUrlApi = {
+                    urlApi: result.data.urlapiloterias
+                };
+
+                deferred.resolve(parametroUrlApi);
+            },
+            function (error) {
+                parametroUrlApi = error;
+                deferred.reject(error);
+            });
+
+            parametroUrlApi = deferred.promise;
+        }
+
+        return $q.when(parametroUrlApi);
+    };
+});
+
+loterias.factory("UtilService", function ($window) {
+    return {
+        exibirArrecadacao: function () {
+            var alturaNav = $('.section-index-fixed').outerHeight() - 40;
+            var distanciaIndex = $('.wp_arrecadacao').attr("data-position")
+            var scroll = parseFloat(distanciaIndex) - parseFloat(alturaNav);
+            $("#s4-workspace").animate({ scrollTop: scroll }, 1000);
+        },
+        exibirAlertaConcursoNaoEncontrado: function () {
+            $window.alert('Não foi encontrado nenhum concurso com esta numeração.');
+        },
+        obterValorDoParametroQueryString: function (parametro) {
+            parametro = parametro.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            const regex = new RegExp('[\\?&]' + parametro + '=([^&#]*)');
+            const parametros = regex.exec($window.location.search);
+            return parametros === null ? '' : decodeURIComponent(parametros[1].replace(/\+/g, ' '));
+        }
+    };
+});
+
+
+$(document).ready(function () {
+    rybena('ico_libras_2011');
+    includeRybenaNoBar();
+});
+
+$(document).click(function (event) {
+    if ($(event.target).parents().index($('.main-menu')) == -1) {
+        $('.submenu.active').removeClass('active')
+    }
+});

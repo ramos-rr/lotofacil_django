@@ -1,0 +1,2548 @@
+﻿h2{
+    color: #0066b3;
+    font-family: "futura-lt-bold";
+    font-size: 55px;
+    margin-block-end: 45px;
+}
+div.content-hero.hero-loteria.blue-hero {
+    background-image: url(../images/bg_destaqueInternas.jpg?MOD=AJPERES);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    z-index: 2;
+}
+div.container.wp-topo.bg-blue{
+    background-image: url(../images/bg_destaqueInternas.jpg?MOD=AJPERES);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    z-index: 2;
+}
+.bg-blue div {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.section-apps {
+    background-image: url("../images/bg_aplicativosCaixa.png?MOD=AJPERES");
+    background-size: cover;
+}
+.section-apps .description, .section-apps .description p {
+    color: #fff;
+}
+/*Resultados home */
+.products .product {
+    padding: 2.5em 0;
+    min-height: 190px;
+}
+
+.products .product img {
+    margin-bottom: 20px
+}
+h3.nome-loteria {
+    font-size: 1.7rem;
+    font-weight: 600;
+    max-height: 40px;
+    padding-left: 49px;
+    padding-top: 4px;
+    background: url(../images/icos_loterias.png) no-repeat;
+}
+
+h3.megasena {
+    background-position: left top;
+    color: #209869;
+}
+
+h3.lotofacil {
+    background-position: left -45px;
+    color: #930089;
+}
+
+h3.quina {
+    background-position: left -91px;
+    color: #260085;
+}
+
+h3.lotomania {
+    background-position: left -136px;
+    color: #f78100;
+}
+
+h3.timemania {
+    background-position: left -181px;
+    color: #00ff48;
+}
+
+h3.duplasena {
+    background-position: left -225px;
+    color: #a61324;
+}
+
+h3.federal {
+    background-position: left -269px;
+    color: #103099;
+}
+
+h3.loteca {
+    background-position: left -316px;
+    color: #fb1f00;
+}
+
+h3.lotogol {
+    background-position: left -361px;
+    color: #0086b7;
+}
+
+h3.instantanea {
+    background-position: left -361px;
+    color: #0086b7;
+}
+
+h3.diadesorte {
+    background-position: left -403px;
+    color: #cb852b;
+}
+h3.supersete {
+  background-position: left -446px;
+  color: #a8cf45;
+}
+
+h3.maismilionaria {
+    font-size: 1.7rem;
+    font-weight: 600;
+    max-height: 40px;
+    padding-left: 49px;
+    padding-top: 4px;
+    background: url(../images/trevo-home.png) no-repeat;
+    color: #2E3078;
+}
+
+
+.products .product.clearfix {
+    padding: 2.5em 0;
+}
+.linkAposta a{
+	border-color: #a5aab5;
+    background: -webkit-linear-gradient(top,#fff 0%,#e9e9ec 100%);
+    background: linear-gradient(to bottom,#fff 0%,#e9e9ec 100%);
+    color: #006bae;
+    font-size: 1.5em;
+    font-family: 'futura-lt-book';
+    width: auto;
+    min-width: 7em;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em 1.5em;
+    border-radius: 2px;
+    box-shadow: 0 2px 0 rgb(31 42 71 / 10%);
+    line-height: 1;
+    outline: none;
+    text-align: center;}
+}
+.bg-blue .description, .bg-blue .description p {
+    font-size: 1rem;
+    color: #fff;
+}
+.giga, .mega, .kilo, .alpha, .beta, .gamma, .delta, .epsilon, .zeta, h1, h2, h3, h4, h5, h6 {
+    color: #0066b3;
+    font-family: "futura-lt-bold";
+}
+.content h4,.content h5,.content h6 {
+    color: #0066b3;
+    font-family: "futura-lt-bold";
+}
+
+.related-box .giga, .related-box .mega, .related-box .kilo, .related-box .alpha, .related-box .beta, .related-box .gamma, .related-box .delta, .related-box .epsilon, .related-box .zeta, .related-box h1, .related-box h2, .related-box h3, .related-box h4, .related-box h5, .related-box h6 {
+   	color: #0066b3;
+    font-family: "futura-lt-bold";
+}
+/*Resultados*/
+.simple-container.lista-dezenas.lotofacil {
+    width: 350px;
+}
+.simple-container.lista-dezenas.lotofacil li.dezena {
+    font-size: 1.7rem;
+    color: #930989;
+    font-family: "FuturaWeb",sans-serif;
+    width: 20%;
+    display: inline-block;
+    padding: 18px;
+    border-bottom: 1px solid #d5d9df;
+    margin: 0px;
+}
+
+
+.simple-container.lista-dezenas.lotomania{
+    width:380px;
+    margin-top: 10px;
+}
+.simple-container.lista-dezenas.lotomania li.dezena {
+    font-size: 2.2rem;
+    color: #F78100;
+    font-family: "FuturaWeb",sans-serif;
+    width: 20%;
+    display: inline-block;
+    padding: 18px;
+    border-bottom: 1px solid #d5d9df;
+    margin:0px
+}
+.simple-container.lista-dezenas.lotomania li.dezena:nth-last-of-type(-n+5) {
+    border-bottom:none;
+}
+/* CSS utilizado super 7 */
+.section-text ul.super-7 {
+    margin: 10px 0 40px 0;
+    height: 150px;
+}
+.m-top-30{
+    margin-top: 30px;
+}
+.resultado-loteria > .numbers.super-7 > li {
+    display: inline-block;
+    margin: 0 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    background: none;
+    border-radius: 0;
+    width: 67px;
+    height: 67px;
+    padding: 20px 0;
+    text-align: center
+}
+.resultado-loteria.supersete > .numbers > li div.coluna{
+    display: inline-block;
+    margin: 0 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #4c546d;
+    background: none;
+    border-radius: 35px;
+    width: 67px;
+    height: 67px;
+    padding: 20px 0;
+    text-align: center;
+}
+.resultado-loteria.supersete > .numbers > li div.dezena{
+    display: inline-block;
+    margin: 0 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    background: #a8cf45;
+    border-radius: 35px;
+    width: 67px;
+    height: 67px;
+    padding: 20px 0;
+    text-align: center;
+}
+.feedback-warning {
+    max-width: 600px;
+}
+@media screen and (max-width: 1060px) {
+    .resultado-loteria > .numbers.super-7 > li {
+        margin: 0 12px 0 0;
+        width: 60px;
+        height: 60px;
+        padding: 20px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.coluna{
+        margin: 0 12px 0 0;
+        width: 60px;
+        height: 60px;
+        padding: 20px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.dezena{
+        margin: 0 12px 0 0;
+        width: 60px;
+        height: 60px;
+        padding: 20px 0;
+    
+    }
+    .popover > popover-link > popover-container > popover-text {
+        position: absolute;
+        display: initial;
+        right: 4rem;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .resultado-loteria > .numbers.super-7 > li {
+        margin: 0 8px 0 0;
+        width: 53px;
+        height: 53px;
+        padding: 20px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.coluna{
+        margin: 0 8px 0 0;
+        width: 53px;
+        height: 60px;
+        padding: 20px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.dezena{
+        margin: 0 8px 0 0;
+        width: 55px;
+        height: 55px;
+        padding: 16px 0;
+    
+    }
+    .popover > popover-link > popover-container > popover-text {
+        position: absolute;
+        display: initial;
+        right: 25%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .resultado-loteria > .numbers.super-7 > li {
+        margin: 0 8px 0 0;
+        width: 50px;
+        height: 50px;
+        padding: 12px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.coluna{
+        margin: 0 8px 0 0;
+        width: 50px;
+        height: 50px;
+        padding: 12px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.dezena{
+        margin: 0 8px 0 0;
+        width: 50px;
+        height: 50px;
+        padding: 12px 0;
+    
+    }
+    .popover > popover-link > popover-container > popover-text {
+        position: absolute;
+        display: initial;
+        right: 5px;
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .resultado-loteria > .numbers.super-7 > li {
+        margin: 0 6px 0 0;
+        width: 45px;
+        height: 45px;
+        padding: 12px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.coluna{
+        margin: 0 6px 0 0;
+        width: 45px;
+        height: 45px;
+        padding: 12px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.dezena{
+        margin: 0 6px 0 0;
+        width: 45px;
+        height: 45px;
+        padding: 12px 0;
+    
+    }
+    .popover > popover-link > popover-container > popover-text {
+        position: absolute;
+        display: initial;
+        right: 5px;
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .resultado-loteria > .numbers.super-7 > li {
+        margin: 0 4px 0 0;
+        width: 40px;
+        height: 45px;
+        padding: 12px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.coluna{
+        margin: 0 4px 0 0;
+        font-size: 1.6rem;
+        width: 40px;
+        height: 50px;
+        padding: 12px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.dezena{
+        margin: 0 4px 0 0;
+        font-size: 1.6rem;
+        width: 40px;
+        height: 42px;
+        padding: 10px 0;
+    
+    }
+    .popover > popover-link > popover-container > popover-text {
+        position: absolute;
+        display: initial;
+        right: 5px;
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 340px) {
+    .resultado-loteria > .numbers.super-7 > li {
+        margin: 0 2px 0 0;
+        width: 36px;
+        height: 36px;
+        padding: 10px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.coluna{
+        margin: 0 2px 0 0;
+        font-size: 1.6rem;
+        width: 36px;
+        height: 36px;
+        padding: 10px 0;
+    }
+    .resultado-loteria.supersete > .numbers > li div.dezena{
+        margin: 0 2px 0 0;
+        font-size: 1.6rem;
+        width: 36px;
+        height: 36px;
+        padding: 6px 0;
+    
+    }
+    .popover > popover-link > popover-container > popover-text {
+        position: absolute;
+        display: initial;
+        right: 5px;
+        font-size: 20px;
+    }
+
+}
+@media screen and (min-width: 37.5em) {
+    .section-products .product .product-column {
+        display: table-cell;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .product .resultado-loteria.supersete > li {
+        margin: 1px;
+        width: 40px;
+        height: 40px;
+    }
+    .product .resultado-loteria.supersete > li div.coluna{
+        margin: 0px;
+        width: 42px;
+        height: 45px;
+    }
+    .product .resultado-loteria.supersete > li div.dezena{
+        margin: 0px;
+        width: 42px;
+        height: 42px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .product .resultado-loteria.supersete > li {
+        margin: 1px;
+        width: 35px;
+        height: 35px;
+    }
+    .product .resultado-loteria.supersete > li div.coluna{
+        margin: 0px;
+        width: 35px;
+        height: 38px;
+    }
+    .product .resultado-loteria.supersete > li div.dezena{
+        margin: 0px;
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+        padding: 7px 0;
+    }
+}
+
+
+@media screen and (min-width: 81.25em) {
+    .section-services .service.video .picture:after {
+        top:45%
+    }
+}
+
+.section-products > h2 {
+    margin-bottom: 0
+}
+
+ul.products {
+    border-top: 1px solid #e8e9ec
+}
+
+.products {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.products .product {
+    padding: 20px 0;
+    min-height: 220px;
+    border-bottom: 1px solid #e8e9ec
+}
+
+.products .product:last-child {
+    border-bottom: none
+}
+
+.product.with-image .product-column:first-child {
+    float: left;
+    width: 30%;
+    max-width: 239px;
+    margin-right: 20px
+}
+
+ .product.with-image .product-column:first-child {
+    display: block;
+    width: 40%
+}
+ .product.with-image:first-child .product-column:first-child {
+    top: -30px;
+    position: relative;
+    height: 238px
+}
+
+.product.with-image:nth-child(4) .product-column:first-child {
+    height: 231px
+}
+
+.product.with-image:first-child .product-column:first-child > img {
+    width: 95.4%
+}
+
+.product.with-image:nth-child(2) .product-column:first-child > img {
+    width: 85%;
+    left: 30px;
+    top: 40px
+}
+
+.product.with-image:nth-child(4) .product-column:first-child > img {
+    width: 110%;
+    top: -30px
+}
+
+.products li.product {
+    padding: 2.5em 0
+}
+
+.product .product-column.textual h3 {
+    margin-bottom: 10px;
+    font-weight: 700
+}
+
+.product .product-column.textual h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+    letter-spacing: 0;
+    margin-bottom: 10px
+}
+
+.product .description {
+    color: rgba(38,42,45,0.7);
+    font-size: .9rem;
+    max-width: 640px
+}
+
+.product .see-more > a {
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ff7200
+}
+
+.product .resultado-loteria {
+    padding: 0;
+    list-style: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.product .resultado-loteria > li {
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #209869;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600
+}
+.product .resultado-loteria.duplasena > li {
+    background: #BF194E;
+}
+.product .resultado-loteria.diadesorte> li {
+    background: #cb852b;
+}
+
+.product .lista-dezenas.duplasena> li{
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #BF194E;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.product .lista-dezenas.quina > li{
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #260085;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.product .lista-dezenas.maismilionaria > li {
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #2E3078;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.product .lista-dezenas.timemania > li{
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+    color:#049645;
+    background: #FFF600;
+
+}
+.product .lista-dezenas.diadesorte > li{
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #cb852b;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.product .lista-dezenas.lotofacil li.dezena{
+    font-size: 1.7rem;
+    color: #930989;
+    font-family: "FuturaWeb",sans-serif;
+    width: 20%;
+    display: inline-block;
+    padding: 18px;
+    border-bottom: 1px solid #d5d9df;
+    margin:0px
+}
+.product .lista-dezenas.lotofacil li.dezena:nth-last-of-type(-n+5) {
+	border-bottom:none;
+}
+.product .lista-dezenas.lotomania li.dezena {
+    font-size: 2.2rem;
+    color: #F78100;
+    font-family: "FuturaWeb",sans-serif;
+    width: 20%;
+    display: inline-block;
+    padding: 18px;
+    border-bottom: 1px solid #d5d9df;
+    margin:0px
+}
+.product .lista-dezenas.lotomania li.dezena:nth-last-of-type(-n+5) {
+    border-bottom:none;
+}
+    
+.product .lista-dezenas.quina > li {
+    background: #260085;
+}
+
+.product .lista-dezenas.maismilionaria > li {
+    background: #2E3078;
+}
+
+.product .resultado-loteria.supersete > li {
+    color: #4c546d;
+    background: #a8cf45;
+}
+.product .resultado-loteria.supersete{
+    margin: 10px 0 40px 0;
+    height: 100px;
+}
+.m-top-30{
+    margin-top: 30px;
+}
+.product .resultado-loteria.supersete > li {
+  display: inline-block;
+  margin: 3px;
+  font-family: "FuturaWeb",sans-serif;
+  font-size: 1.1rem;
+  color: #4c546d;
+  background: none;
+  border-radius: 0;
+  width: 45px;
+  height: 45px;
+  padding: 5px 0;
+  text-align: center;
+}
+.product .resultado-loteria.supersete > li div.coluna{
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #4c546d;
+    background: none;
+    border-radius: 35px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.product .resultado-loteria.supersete > li div.dezena{
+    display: inline-block;
+    margin: 3px;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.1rem;
+    color: #4c546d;
+    background: #a8cf45;
+    border-radius: 35px;
+    width: 45px;
+    height: 45px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.product .resultado-loteria > li:first-child {
+    margin-left: 0
+}
+.section-other-services{
+	padding-left: 50px;
+    padding-right: 50px;
+}
+.other-services {
+    background: #f4f4f6;
+    padding: 40px 30px; 
+    margin-top: 107px;
+    height: 100%;
+    width:100%;
+    position: relative;
+    right: 0;
+}
+.other-services > p {
+    color: rgba(38,42,45,0.7);
+    font-size: .9rem;
+    margin-bottom: 50px;
+}
+ .other-services > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.other-services > ul > li {
+    position: relative;
+    padding: 15px 30px 15px 0;
+    margin: 0;
+}
+
+    .other-services > ul > li:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0;
+        background: url("/Style Library/images/sprites.png") no-repeat -101px -100px;
+        display: block;
+        width: 8px;
+        height: 14px;
+        margin-top: -7px;
+    }
+
+    .other-services > ul > li:after {
+        background: url("/Style Library/images/sprites.png") no-repeat -125px -100px
+    }
+.other-services ul li h4 {
+    color: #0066b3;
+    font-family: "futura-lt-bold";
+    font-size: 1.1rem;
+}
+.other-services h3 {
+    color: #4c546d;
+    font-family: "futura-lt-bold";
+    font-size: 1.3rem;
+    margin-block-end: 1em;
+}
+.other-services > ul > li > p {
+    color: rgba(38,42,45,0.7);
+    font-size: .9rem;
+    margin: 10px 0
+}
+.product-related-content {
+    padding: 2.5em;
+    background: #f4f4f6
+}
+
+.results .indice-sidebar {
+    padding: 0;
+    background: transparent
+}
+
+.results .indice-letter-group {
+    border: 0;
+    padding-top: 0
+}
+
+.results .indice-sidebar ul li.selected a {
+    color: #444
+}
+
+.results .indice-sidebar ul {
+    width: 220px
+}
+
+.results .indice-sidebar ul li {
+    padding: 1.6em 0;
+    border-top: 1px solid #ccc
+}
+
+.results .indice-sidebar ul li:first-child {
+    border-top: 0
+}
+
+.results .indice-list li {
+    padding: 30px 0
+}
+
+.results .indice-list li a {
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.4rem
+}
+
+.results .pagination {
+    padding: 1.5em 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc
+}
+
+.results .feedback {
+    padding: 1.5em 0;
+    border-top: 0;
+    border-bottom: 1px solid #ccc
+}
+
+.link-group {
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #d2d4da
+}
+
+.link-group-last {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+.o-que-fazer.content-section {
+    padding: 0
+}
+
+.o-que-fazer .product-column:first-child {
+    text-align: center;
+    vertical-align: middle
+}
+
+.o-que-fazer .product-column h3 {
+    color: #006bae
+}
+
+.o-que-fazer .product-column img {
+    display: block
+}
+
+.canais-atendimento {
+    padding: 3,5% 6,5%
+}
+
+.canais-atendimento ul {
+    border: 1px solid #d7dbe7;
+    margin: 0 6%;
+    display: table
+}
+
+.canais-atendimento li {
+    list-style: none;
+    border-right: 1px solid #e7e9f1;
+    display: inline-block
+}
+
+@media screen and (min-width: 37.5em) {
+    .content-wrapper {
+        background:transparent
+    }
+
+    .content-wrapper .products {
+        background: #fff;
+        padding: 0 10px
+    }
+
+   .product {
+        display: table;
+        width: 100%
+    }
+
+   .product .product-column {
+        display: table-cell;
+        padding-bottom: 20px;
+    }
+
+    .product .product-column:first-child {
+        width: 40%;
+    }
+
+    .product.with-image {
+        display: block
+    }
+
+    .product.with-image .product-column:first-child {
+        display: block;
+        width: 30%
+    }
+
+    .product.no-title {
+        padding-top: 30px
+    }
+
+    .o-que-fazer .product-column img {
+        display: table-cell
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .section-text .related-box {
+        margin:0
+    }
+
+    .content-section.column-right,.content-section.column-left {
+        padding: 10px 16px
+    }
+
+    .simple-table.lotomania {
+        width: 85%
+    }
+
+    .content-section.section-text.with-box.column-right {
+        padding-top: 0
+    }
+
+    .related-box.gray-text.no-margin-top {
+        margin-top: 0
+    }
+
+    .section-highlight .product .picture,.section-highlight .product .dest-Img {
+        height: 95px
+    }
+
+    .section-highlight .product .picture,.section-highlight .product .dest-Img img {
+        width: 100px
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .section-products.column-left {
+        float:left;
+        width: 67%;
+        margin-right: 3%;
+        padding-right: 0;
+        border-bottom: 0
+    }
+
+   	.products .product {
+        padding: 0
+    }
+
+   	.product.no-title {
+        padding-top: 30px
+    }
+}
+
+.section-highlight {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.section-highlight .product {
+    position: relative;
+    padding: 30px 0;
+    border-bottom: 1px solid #d9d9d9;
+    min-height: 160px
+}
+
+.section-highlight .product:last-child {
+    border-bottom: none
+}
+
+.section-highlight .product .picture,.section-highlight .product .dest-Img {
+    float: left;
+    overflow: hidden;
+    margin-right: 25px
+}
+
+.section-highlight .product .title,.section-highlight .product h5 {
+    font-weight: 700;
+    color: #1f2a47;
+    margin-bottom: 0!important
+}
+
+.section-highlight .product .description,.section-highlight .product .dest-RichTxt p {
+    color: rgba(38,42,45,0.7);
+    font-size: .9rem;
+    margin: 14px 0
+}
+
+.section-highlight .product .see-more > a,.section-highlight .product .dest-link > a {
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ff7200
+}
+
+@media screen and (min-width: 37.5em) {
+    .section-highlight {
+        margin:5% 0 3.5%
+    }
+
+    .section-highlight .product {
+        float: left;
+        padding: 0;
+        border-bottom: none;
+        width: 31%;
+        margin-right: 3.5%;
+        text-align: center
+    }
+
+    .section-highlight .product:last-child {
+        margin-right: 0
+    }
+
+    .section-highlight .product .picture,.section-highlight .product .dest-Img {
+        width: 100%;
+        margin-bottom: 7%
+    }
+
+    .section-highlight .product .picture > img,.section-highlight .product .dest-Img > img {
+        height: 100%;
+        width: auto
+    }
+}
+@media screen and (min-width: 62.5em) {
+    .section-highlight .product .picture > img, .section-highlight .product .dest-Img > img {
+        height: auto;
+        width: 100%;
+    }
+
+    .section-highlight .product div {
+        text-align: center
+    }
+
+    .section-highlight .product .title, .section-highlight .product h5 {
+        font-weight: 700;
+        margin-bottom: 0
+    }
+}
+
+@media screen and (min-width: 93em) {
+    .section-highlight .product .picture > img, .section-highlight .product .dest-Img > img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.section-map > h2 {
+    margin-bottom: 10px
+}
+
+.section-map > .description {
+    color: rgba(38,42,45,0.7);
+    font-size: 1rem
+}
+
+.interactive-map > .filters .select-button {
+    margin-bottom: 20px
+}
+
+.interactive-map > .filters .search {
+    position: relative
+}
+
+.interactive-map > .map {
+    background: url("/Style Library/images/mapa.jpg?locale=pt-BR&locale=pt&locale=en&locale=ltr") no-repeat center center;
+    margin: 40px -16px;
+    height: 200px
+}
+
+.interactive-map > .places {
+    margin-bottom: -20px;
+    -webkit-box-shadow: -5px 0 11px -4px #999;
+    box-shadow: -5px 0 11px -4px #999
+}
+
+.interactive-map > .places > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+    .interactive-map > .places > ul > li {
+        background: url("/Style Library/images/atendimento/icon-map.png?locale=pt-BR&locale=pt&locale=en&locale=ltr") no-repeat 10px 0; padding-left: 40px;
+        margin: 30px 0
+    }
+
+.interactive-map > .places > ul > li > .title {
+    margin: 0 0 10px;
+    color: #1f2a47
+}
+
+.interactive-map > .places > ul > li > address {
+    font-size: .9rem;
+    font-style: normal;
+    color: #4c556c
+}
+
+@media screen and (min-width: 37.5em) {
+    .section-map {
+        padding-bottom:0;
+        overflow: hidden
+    }
+
+    .interactive-map {
+        position: relative;
+        background: url("/Style Library/images/atendimento/mapa.jpg?locale=pt-BR&locale=pt&locale=en&locale=ltr") no-repeat center center;
+        background-size: cover;
+        margin-top: 40px;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 0 16px;
+        min-height: 700px;
+        border-top: 1px solid #c8cbd4
+    }
+
+    .interactive-map > .filters {
+        width: 50%;
+        margin-top: 40px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+    }
+
+    .interactive-map > .filters > .select-button {
+        float: left;
+        width: 35%;
+        background: #fff;
+        font-size: .9rem;
+        min-height: 3.95em;
+        color: #5c5f68;
+        border: none;
+        border-right: 1px solid #d6d9de;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0
+    }
+
+    .interactive-map > .filters .search {
+        float: left;
+        width: 56%
+    }
+
+    .interactive-map > .filters .field-d {
+        border: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        box-shadow: none;
+        min-height: 4em
+    }
+
+    .interactive-map > .places {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        min-width: 350px;
+        min-height: inherit;
+        background: #f9f9fa;
+        border-left: 1px solid #d2d4da
+    }
+
+    .interactive-map > .places > ul > li {
+        background-position: 30px 35px;
+        padding: 35px 20px 35px 60px;
+        margin: 0;
+        border-bottom: 1px solid #d2d4da
+    }
+
+    .interactive-map > .places > ul > li:last-child {
+        border-bottom: none
+    }
+
+    .content-hero.hero-loteria h1.mega {
+        font-size: 8.3rem
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .column-right.section-products .other-services {
+        margin-top:107px
+    }
+
+    .product-related-content {
+        float: left;
+        width: 30%
+    }
+}
+
+@media screen and (min-width: 75em) {
+    .interactive-map {
+        margin-left:-4%;
+        margin-right: -4%;
+        padding: 0 4%
+    }
+}
+
+@media screen and (min-width: 81.25em) {
+    .interactive-map {
+        margin-left:-7%;
+        margin-right: -7%;
+        padding: 0 7%
+    }
+}
+*/
+.title-loteria a,.title-loteria a:hover {
+    border: none;
+    text-decoration: none;
+    padding-left: 15px
+}
+
+.special-theme #footer {
+    background: #fff
+}
+
+table.no-margin-top {
+    margin-top: 0
+}
+
+.simple-table.lotogol {
+    font-size: 1rem
+}
+
+.simple-table.lotogol ul {
+    padding: 10px 0;
+    margin: 0;
+    position: relative
+}
+
+.simple-table.lotogol tr td:first-child {
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 1.3rem
+}
+
+.simple-table.lotogol li {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1px 10px;
+    margin: 0 7px;
+    border: 1px solid #d2d4da
+}
+
+.simple-table.lotogol td {
+    padding: 10px 18px
+}
+
+.simple-table.lotogol li.selected {
+    background: #0088b6;
+    color: #fff;
+    font-weight: 700
+}
+
+.simple-table.lotogol span {
+    display: block;
+    font-size: .6rem;
+    margin: 10px 0
+}
+
+.lotogol-mobile h5,.lotogol-mobile ul {
+    padding: 0!important;
+    margin: 0
+}
+
+.lotogol-mobile table {
+    margin-top: 0
+}
+
+.lotogol-mobile ul li:first-child {
+    margin-left: 0
+}
+
+.lotogol-mobile table p {
+    margin: 25px 0 10px!important
+}
+
+.lotogol-mobile tr td:first-child {
+    vertical-align: top;
+    padding: 30px 0 0;
+    font-size: 1.7rem!important
+}
+
+.lotogol-mobile tr td {
+    padding: 5px 19px
+}
+
+.lotogol-mobile tr th {
+    padding: 10px 0
+}
+
+.loteca-mobile table {
+    margin-top: 0
+}
+
+.loteca-mobile th {
+    font-size: .8rem!important;
+    text-align: center!important;
+    font-weight: 400;
+    padding: 10px!important
+}
+
+.loteca-mobile td {
+    padding: 15px 10px;
+    font-size: .8rem;
+}
+
+.loteca-mobile td:nth-child(4) {
+    text-align: right
+}
+
+@media screen and (min-width: 75em) {
+    .content-hero,.content-section,#footer,#footer > .hotlinks {
+        padding-left:3.5%;
+        padding-right: 3.5%
+    }
+
+    #footer > .hotlinks {
+        margin-left: -3.5%;
+        margin-right: -3.5%
+    }
+}
+
+@media screen and (min-width: 81.25em) {
+    .content-hero,.content-section,#footer,#footer > .hotlinks {
+        padding-left:6%;
+        padding-right: 6%
+    }
+
+    #footer > .hotlinks {
+        margin-left: -6%;
+        margin-right: -6%
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    h2,.beta {
+        font-size:1.8rem
+    }
+
+    .content-hero.hero-loteria h1.mega {
+        font-size: 1.47rem;
+        text-shadow: none
+    }
+
+    .hero-loteria .logo-mega-sena, .hero-loteria .logo-quina, .hero-loteria .logo-lotofacil, .hero-loteria .logo-lotomania, .hero-loteria .logo-timemania, .hero-loteria .logo-duplasena, .hero-loteria .logo-loteca, .hero-loteria .logo-lotogol {
+        float: none;
+        margin: 25px auto auto
+    }
+
+    .section-services .service .title,.section-services .service .dest-link {
+        font-size: 1.6rem;
+        margin-bottom: 7px
+    }
+
+    .hero-loteria .resultado-loteria {
+        text-align: center;
+        float: none
+    }
+
+    .hero-loteria .action .description {
+        font-family: "FuturaWeb",sans-serif;
+        font-size: 1.5rem
+    }
+
+    .section-services .service .title,.section-services .service .dest-link {
+        font-size: 1.5rem
+    }
+
+    .top-link {
+        display: none;
+        font-size: 1.3rem;
+        text-align: right;
+        position: relative;
+        margin-bottom: 30px
+    }
+
+   	.product .resultado-loteria {
+        margin: 20px 0 25px
+    }
+
+    .product h3 {
+        margin: 20px 0
+    }
+
+    .products .product.federal {
+        margin: 0;
+        min-height: auto
+    }
+
+    .content-section.section-services.no-border {
+        border-bottom: 1px solid #D9D9D9
+    }
+
+    .column-right.section-products .other-services {
+        margin-top: 0
+    }
+
+    .section-highlight .product .title,.section-highlight .product h5 {
+        font-size: 1.4rem
+    }
+
+    .section-highlight .product .title,.section-highlight .product {
+        line-height: 1
+    }
+
+    .section-highlight .product .title,.section-highlight .product p {
+        margin: 12px 0!important
+    }
+      .special-theme .section-products .content-wrapper {
+        background:transparent
+    }
+
+    .special-theme .section-products .content-wrapper .products {
+        background: #fff;
+        padding: 0 10px
+    }
+}
+
+@media screen and (min-width: 37.5em) and (max-width: 62.5em) {
+    .control-span-6_8 {
+        width:25%!important
+    }
+
+    .column-left {
+        width: 80%
+    }
+}
+
+#recaptcha_table,#recaptcha_response_field,#recaptcha_image {
+    border-color: #FFF!important
+}
+
+#recaptcha_response_field {
+    border: 1px solid #a5aab5!important;
+    margin-top: 10px
+}
+
+.popup-outer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.popup-content {
+    background: none repeat scroll 0 0 #fff;
+    display: table;
+    margin: 10% auto 0;
+    padding: 2em 2.5em 2.5em;
+    width: 550px;
+    z-index: 2;
+}
+
+@media screen and (min-width: 37.5em) {
+    .giga {
+        font-size:5.961rem
+    }
+
+    .mega {
+        font-size: 4.768rem
+    }
+
+    .kilo {
+        font-size: 3.815rem
+    }
+
+    h1,.alpha {
+        font-size: 3.052rem
+    }
+
+    h2,.beta {
+        font-size: 2.441rem
+    }
+
+    h3,.gamma {
+        font-size: 1.953rem
+    }
+
+    h4,.delta {
+        font-size: 1.563rem
+    }
+
+    h5,.epsilon {
+        font-size: 1.4rem
+    }
+
+    p {
+        line-height: 1.45
+    }
+
+    .submit-d {
+        width: auto;
+        min-width: 7em
+    }
+
+    .form-row {
+        margin-bottom: 2.5em
+    }
+
+    .control-item {
+        float: left;
+        margin-bottom: 0;
+        padding-right: 1.5%
+    }
+
+    .button-group,.control-group {
+        margin-bottom: 0
+    }
+
+    .control-span-12_12 {
+        width: 100%
+    }
+
+    .control-span-10_12 {
+        width: 83.333%
+    }
+
+    .control-span-8_12 {
+        width: 66.666%
+    }
+
+    .control-span-6_12 {
+        width: 50%
+    }
+
+    .control-span-4_12 {
+        width: 33.333%
+    }
+
+    .control-span-3_12 {
+        width: 25%
+    }
+
+    .control-span-2_12 {
+        width: 16.666%
+    }
+
+    .secondary-action {
+        margin-top: .8em;
+        margin-left: 1.5em
+    }
+
+    .column-span {
+        float: left;
+        padding-right: 2em
+    }
+
+    .column-span-m-12_12 {
+        width: 100%
+    }
+
+    .column-span-m-10_12 {
+        width: 83.333%
+    }
+
+    .column-span-m-8_12 {
+        width: 66.666%
+    }
+
+    .column-span-m-6_12 {
+        width: 50%
+    }
+
+    .column-span-m-4_12 {
+        width: 33.333%
+    }
+
+    .column-span-m-3_12 {
+        width: 25%
+    }
+
+    .column-span-m-2_12 {
+        width: 16.666%
+    }
+
+    [class*="col-"] {
+        width: 5%;
+        margin-left: 3.636%
+    }
+
+    .col-t-2 {
+        width: 13.636%
+    }
+
+    .col-t-3 {
+        width: 22.272%
+    }
+
+    .col-t-4 {
+        width: 30.908%
+    }
+
+    .col-t-6 {
+        width: 48.018%
+    }
+
+    .col-t-7 {
+        width: 56.816%
+    }
+
+    .col-t-8 {
+        width: 62.452%
+    }
+
+    .col-t-9 {
+        width: 71.088%
+    }
+
+    .col-t-10 {
+        width: 82.728%
+    }
+
+    .col-t-12 {
+        width: 100%
+    }
+
+    .offset-2 {
+        margin-left: 17.272%
+    }
+
+    .offset-4 {
+        margin-left: 34.544%
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .giga {
+        font-size:9.969rem
+    }
+
+    .mega {
+        font-size: 7.478rem
+    }
+
+    .kilo {
+        font-size: 5.61rem
+    }
+
+    h1,.alpha {
+        font-size: 4.209rem
+    }
+
+    h2,.beta {
+        font-size: 2.8rem
+    }
+
+    h3,.gamma {
+        font-size: 2.369rem
+    }
+
+    h4,.delta {
+        font-size: 1.777rem
+    }
+
+    h5,.epsilon {
+        font-size: 1.6rem
+    }
+
+    .column-span-g-12_12 {
+        width: 100%
+    }
+
+    .column-span-g-10_12 {
+        width: 83.333%
+    }
+
+    .column-span-g-8_12 {
+        width: 66.666%
+    }
+
+    .column-span-g-6_12 {
+        width: 50%
+    }
+
+    .column-span-g-4_12 {
+        width: 33.333%
+    }
+
+    .column-span-g-3_12 {
+        width: 25%
+    }
+
+    .column-span-g-2_12 {
+        width: 16.666%
+    }
+
+    .col-2 {
+        width: 15%
+    }
+
+    .col-3 {
+        width: 23.5%
+    }
+
+    .col-4 {
+        width: 32%
+    }
+
+    .col-6 {
+        width: 49%
+    }
+
+    .col-7 {
+        width: 57.5%
+    }
+
+    .col-8 {
+        width: 66%
+    }
+
+    .col-10 {
+        width: 83%
+    }
+
+    .offset-2 {
+        margin-left: 17%
+    }
+
+    .offset-4 {
+        margin-left: 34%
+    }
+}
+
+.todosResultados {
+    padding: 10px;
+}
+
+    .todosResultados h3 span {
+        color: #0066b3;
+        font-family: "futura-lt-bold";
+    }
+
+.tabela-resultado {
+    margin: 10px 0px;
+}
+
+    .tabela-resultado td,
+    .tabela-resultado th {
+        padding: 5px 10px;
+    }
+
+        .tabela-resultado td:first-child,
+        .tabela-resultado th:first-child {
+            text-align: center;
+        }
+
+    .tabela-resultado thead {
+        background: #006bae;
+        color: #fff;
+    }
+
+    .tabela-resultado tbody:nth-child(even) {
+        background: #FFF;
+    }
+
+    .tabela-resultado tbody:nth-child(odd) {
+        background: #b5ffbd;
+    }
+
+    .tabela-resultado tbody tbody tr {
+        border: none;
+    }
+
+    .tabela-resultado tbody:nth-child(even) tbody {
+        background: #FFF;
+    }
+
+.locaisDaSorte h3 span {
+    color: #0066b3;
+    font-family: "futura-lt-bold";
+}
+
+.margin30 {
+    margin-top: 30px;
+}
+
+/* CSS utilizado simulador super sete  */
+
+.section-text ul.n-simulador {
+    margin: 10px 0 40px 0;
+}
+.m-top-30{
+    margin-top: 30px;
+}
+.resultado-loteria > .numbers.n-simulador > li {
+    display: inline-block;
+    margin: 10px 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    background: none;
+    border-radius: 0;
+    width: 67px;
+    height: 67px;
+    padding: 20px 0;
+    text-align: center
+}
+.resultado-loteria.simulador > .numbers > li div.coluna{
+    display: inline-block;
+    margin: 0 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #4c546d;
+    background: #a8cf45;
+    border-radius: 5px;
+    width: 67px;
+    height: 67px;
+    padding: 20px 0;
+    text-align: center;
+}
+.resultado-loteria.simulador > .numbers > li div.dezena{
+    display: inline-block;
+    margin: 0 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #4c546d;
+    background: #fff;
+    border-radius: 35px;
+    border: 1px solid #4c546d;
+    width: 67px;
+    height: 67px;
+    padding: 20px 0;
+    text-align: center;
+}
+.resultado-loteria.simulador > .numbers > li input.simulador-input{
+    display: inline-block;
+    margin: 0 12px 0 0;
+    font-family: "FuturaWeb",sans-serif;
+    font-size: 2rem;
+    color: #4c546d;
+    background: #fff;
+    border-radius: 35px;
+    border: 1px solid #4c546d;
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    border: 1px solid #a5aab5;
+    border-top-color: #8f94a1;
+    outline: 0;
+    padding: 0 .2em;
+    box-shadow: 5px 5px 8px rgba(165,170,181,.25) inset;
+}
+/* Simulador */
+.field-d.w-50{
+    width: 50%;
+}
+ul.numbers-7{
+    max-width: 600px;
+}
+.no-padding-b{
+    padding-bottom: 0;
+}
+
+/* mega virada*/
+
+#megaVirada .nome-loteria {
+    float: left;
+    padding-left: 52px;
+    position: relative;
+    width: 40%;
+}
+
+#megaVirada .megasenadavirada {
+    margin-bottom: 4em;
+}
+
+#megaVirada .nome-loteria p {
+    font-family: "FuturaWebBold", sans-serif;
+    margin: 0;
+    text-transform: uppercase
+}
+
+#megaVirada .megasenadavirada > p {
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: -1px
+}
+
+#megaVirada .megasenadavirada > .description {
+    font-weight: 200;
+    line-height: unset;
+    margin-top: 0;
+    padding-top: 0
+}
+
+#megaVirada .only-resultado .inline .description {
+    color: #fff;
+    font-family: "FuturaWeb", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400
+}
+
+#megaVirada .resultado-loteria {
+    margin-left: 0
+}
+
+#megaVirada .action button {
+    text-align: right;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 37.49em) {
+
+    #megaVirada .megasenadavirada > p {
+        color: #fff;
+        font-size: 1.6rem;
+        color: #fff;
+        font-size: 1.6rem
+    }
+
+    #megaVirada .resultado-loteria {
+        margin-left: 0
+    }
+
+    #megaVirada .nome-loteria {
+        width: 100%
+    }
+
+    #megaVirada .resultado-loteria > li {
+        font-size: 1.1rem;
+        margin: 0
+    }
+
+    #megaVirada .only-resultado .inline .description {
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 37.5em) {
+    #megaVirada .sorteio-resultado .resultado-loteria {
+        float: none
+    }
+
+        #megaVirada .sorteio-resultado .resultado-loteria > li {
+            border-radius: 65px;
+            font-size: 3.1rem;
+            min-width: 82px;
+            text-align: center;
+            font-weight: 400
+        }
+
+    #megaVirada .only-resultado .nome-loteria {
+        width: 90%;
+        background-position: left top !important
+    }
+
+        #megaVirada .only-resultado .nome-loteria p.description span {
+            font-weight: 700
+        }
+
+        #megaVirada .only-resultado .nome-loteria p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 1rem;
+            float: none;
+            width: 100%;
+        }
+
+    #megaVirada .only-resultado .megasenadavirada {
+        background-position: left center !important
+    }
+
+        #megaVirada .only-resultado .megasenadavirada p.description {
+            width: 100% !important;
+            font-size: 1.3rem !important;
+            margin-top: -5px !important
+        }
+
+    #megaVirada .sorteio-resultado .resultado-loteria > li {
+        font-size: 2.2rem;
+        min-width: 66px
+    }
+
+    #megaVirada .only-resultado .inline .description {
+        width: 58%;
+        float: left;
+        padding-right: 1rem;
+        margin: 0;
+        padding-top: 0
+    }
+
+    #megaVirada .only-resultado .inline .action {
+        width: 42%;
+        float: left;
+        margin: 0;
+        padding-top: 0
+    }
+
+    #megaVirada {
+        padding: 0 2rem
+    }
+}
+
+.mobile-menu, .mobile-account {
+    float: left;
+    padding-right: 20px;
+    text-align: center;
+    width: 50%;
+}
+.resultado-loteria > li {
+    margin: 0 4px;
+    display: inline-block;
+    background: #fff;
+    padding: 10px 12px;
+    border-radius: 30px;
+    font-family: "FuturaWeb",sans-serif;
+    color: #0369b9;
+    font-size: 1.4rem;
+}
+@media screen and (min-width: 50em) and (max-width: 62.5em) {
+    #megaVirada {
+        margin: auto;
+        max-width: 640px
+    }
+}
+
+
+@media screen and (min-width: 62.5em) {
+    #megaVirada .sorteio-resultado .resultado-loteria {
+        text-align: left
+    }
+
+        #megaVirada .sorteio-resultado .resultado-loteria > li {
+            border-radius: 65px;
+            font-size: 3.5rem;
+            min-width: 93px
+        }
+
+    #megaVirada .only-resultado .nome-loteria {
+        width: 90%;
+        background-position: left 5px !important
+    }
+
+        #megaVirada .only-resultado .nome-loteria p {
+            color: #fff;
+            font-weight: 700;
+            float: left;
+            width: 245px;
+            font-size: 1.5rem !important
+        }
+
+    #megaVirada .nome-loteria p.description {
+        color: #fff;
+        font-weight: 400;
+        font-size: .9rem;
+        width: 180px;
+        padding-top: 5px
+    }
+
+    #megaVirada .only-resultado .nome-loteria p.description span {
+        font-weight: 700
+    }
+
+    #megaVirada {
+        margin: auto;
+        max-width: 690px;
+        padding: 0
+    }
+
+        #megaVirada .only-resultado .inline .description, #megaVirada .only-resultado .inline .action {
+            float: left;
+            width: 50%
+        }
+
+        #megaVirada .only-resultado .inline .action {
+            padding-left: 2rem;
+            margin-top: 0
+        }
+}
+
+@media screen and (min-width: 75em) {
+    #megaVirada .sorteio-resultado .resultado-loteria {
+        margin: 40px 0 40px 4%;
+        text-align: left
+    }
+
+        #megaVirada .sorteio-resultado .resultado-loteria > li {
+            border-radius: 65px;
+            font-size: 4rem;
+            min-width: 102px
+        }
+}
+@media screen and (max-width: 37.49em) {
+    .section-text .nav-results > ul > .filter {
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+    }
+
+    .section-text .nav-results > ul > li {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 35.5em) {
+    .section-text .nav-results > ul > .filter {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        max-width: 265px;
+    }
+
+    .section-text .nav-results > ul > li {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 30.2em) {
+    .section-text .nav-results > ul > li {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 25em) {
+    .resultado-loteria > li {
+        margin: 0 2px;
+        display: inline-block;
+        background: #fff;
+        padding: 6px 8px;
+        border-radius: 30px;
+        font-family: "FuturaWeb",sans-serif;
+        color: #0369b9;
+        font-size: 1.4rem;
+    }
+
+    .mega, .mega p {
+        font-size: 3.6rem;
+    }
+    .loteca-mobile td {
+        padding: 15px 9px;
+        font-size: .65rem;
+    }
+
+    .simple-container.lista-dezenas.lotofacil {
+        width: 280px;
+        margin-right: 0;
+    }
+
+    .simple-container.lista-dezenas.lotomania {
+        width: 280px;
+        margin-right: 0;
+    }
+
+    .product .resultado-loteria > li {
+        margin: 2px;
+    }
+    .product .lista-dezenas.timemania > li {
+        margin: 2px;
+        font-size: 1rem;
+        border-radius: 25px;
+        width: 38px;
+        height: 38px;
+        padding: 7px 0;
+    }
+
+    .product .resultado-loteria.supersete > li {
+        margin: 1px;
+        font-size: 1.1rem;
+        width: 38px;
+        height: 38px;
+        padding: 5px 0;
+    }
+
+        .product .resultado-loteria.supersete > li div.coluna {
+            margin: 1px;
+            font-size: 1rem;
+            border-radius: 35px;
+            width: 38px;
+            height: 38px;
+            padding: 9px 0;
+        }
+
+        .product .resultado-loteria.supersete > li div.dezena {
+            margin: 1px;
+            font-size: 1rem;
+            border-radius: 35px;
+            width: 38px;
+            height: 38px;
+            padding: 9px 0;
+        }
+    .product .resultado-loteria > li {
+        margin: 0.1rem;
+        font-size: 1rem;
+        width: 38px;
+        height: 38px;
+        padding: 9px 0;
+        text-align: center;
+        font-weight: 600;
+    }
+    .simple-table {
+        width: 95%;
+    }
+
+    .loteca-mobile table {
+        width: 98%;
+    }
+    .section-text .nav-results > ul > .filter {
+        width: 100%;
+    }
+
+    .section-text .nav-results > ul > li {
+        width: 50%;
+    }
+}
+
+.imgHeaderApp {
+    text-align: center;
+}
+
+.msg-erro {
+    background: #ffb7b6;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 2px;
+    color: #000;
+    font-size: 1.2em;
+    width: 30%;
+    text-align: center;
+    transform: translate(0,10px);
+}
+
+ /*-- POPOVER CONFERIR APOSTA +MIL --*/
+
+.popover-link {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.35;
+}
+
+.popover {
+    position: absolute;
+    display: initial;
+    right: 8rem;
+    font-size: 20px;
+}
+
+.pop {
+    text-align: end;
+}
+
+.popover-container {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: -65px;
+    transform: translate(0, 10px);
+    background-color: #fcfcfc;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: auto;
+    margin-inline-start: -150px;
+}
+
+.popover:hover .popover-container {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+p.popover-text.ptext {
+   width:150px;
+}
+
+@media only screen and (max-device-width: 599px) {
+
+    .popover {
+        right: 5px;        
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+
+    .popover {
+        right: 9rem;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 715px) {
+
+    .popover {
+        right: 27%;        
+    }
+}
+
+@media only screen and (min-width: 716px) and (max-width: 735px) {
+
+    .popover {
+        right: 29%;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 760px) {
+
+    .popover {
+        right: 31%;
+    }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 789px) {
+
+    .popover {
+        right: 33.5%;
+    }
+}
+
+@media only screen and (min-width: 790px) and (max-width: 810px) {
+
+    .popover {       
+        right: 35%;        
+    }
+}
+
+@media only screen and (min-width: 811px) and (max-width: 844px) {
+
+    .popover {
+        right: 37.5%;
+    }
+}
+
+
+@media only screen and (min-width: 845px) and (max-width: 880px) {
+
+    .popover {
+        right: 40.5%;        
+    }
+}
+
+@media only screen and (min-width: 881px) and (max-width: 909px) {
+
+    .popover {
+        right: 42.5%;       
+    }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 930px) {
+
+    .popover {
+        right: 44.5%;
+    }
+}
+
+@media only screen and (min-width: 931px) and (max-width: 950px) {
+
+    .popover {       
+        right: 46%;       
+    }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 975px) {
+
+    .popover {
+        right: 47%;
+    }
+}
+
+
+@media only screen and (min-width: 976px) and (max-width: 999px) {
+
+    .popover {       
+        right: 49%;        
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1181px) {
+
+    .popover {
+        right: 22%;
+    }
+}
+
+@media only screen and (min-width: 1182px) and (max-width: 1990px) {
+
+    .popover {
+        right: 24%;
+    }
+}
+
+@media only screen and (min-width: 1991px) and (max-width: 2344px) {
+
+    .popover {
+        right: 26%;
+    }
+}
+
+
+
+/*-- FIM POPOVER --*/
+/*-- CONFERIR APOSTA +MILIONARIA --*/
+
+.trevosResultado {
+    margin-left: 6px;
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.spaced {
+    margin-bottom: 30px;
+}
+
+.marginFaixas {
+    margin-bottom: -9px;
+}
+
+.ajusteAposta {
+    color: #4c546d;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 1em 0px;
+}
+
+.textoinformativo {
+    font-size: inherit;
+    text-align: justify;
+}
+
+.espacoTexto {
+    margin-top: 30px;    
+}
+
+td.resultadoAposta {
+    font-size: 14px;
+    color: #4c556c;
+    padding: 0.5em;
+}
+
+.ajusteFaixa {
+    color: #4c546d;
+    font-size: 1rem;    
+}
+
+
+/*-- FIM CONFERIR APOSTA +MILIONARIA --*/
+/*-- DESTAQUE HOME +MILIONARIA --*/
+
+.trevosHome {
+    text-align: end;
+}
+
+.trevosMargin {
+    margin: 10px 0 0;
+    max-width: 15%;
+    min-width: 15%;
+    padding: 2px;
+}
+
+.nomeTrevosHome {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+    float: left;
+    margin-top: 22px;
+    margin-left: 23%;
+    /*color: rgba(255,255,255,0.6);*/
+}
+
+.logo-mais-milionaria {
+    padding: 5px 0 0 45px;
+    background: url("../images/trevoHomeMaisMilionaria.png") no-repeat left top;
+    margin-top: 25px;
+    width: 270px;
+}
+
+.maisMilionariaHome {
+    font-size: 1.3rem;
+    color: white;
+    font-style: italic;
+}
+
+@media only screen and (max-device-width: 320px) {
+
+    .nomeTrevosHome {       
+        margin-left: 18px;
+        
+    }
+
+    .logo-mais-milionaria {
+       margin-left: 45px;
+       margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 375px) {
+
+    .nomeTrevosHome {       
+        margin-left: 42px;
+        
+    }
+
+    .logo-mais-milionaria {
+       margin-left: 70px;
+       margin-bottom:15px;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+
+    .nomeTrevosHome {
+        margin-left: 33px;
+    }
+
+    .logo-mais-milionaria {
+        margin-left: 80px;
+        margin-bottom: 15px;
+    }
+}
+
+/*-- FIM DESTAQUE +MILIONARIA --*/
+
+
